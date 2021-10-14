@@ -1,4 +1,4 @@
-# vote-for-representative
+# votação para um representante
 
 Sistema de votação com ranking, que armazena os dados (representante, quantidade de votos) no localstorage.
 
