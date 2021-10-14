@@ -1,4 +1,4 @@
-# votação para um representante
+# votação
 
 Sistema de votação com ranking, que armazena os dados (representante, quantidade de votos) no localstorage.
 
@@ -8,7 +8,7 @@ Colaborador filtra e/ou escolhe o representante para votar (confirma o voto).
 saída:
 Ranking com classificação de votos.
 
-# Inglês
+# voting
 Ranking voting system, which stores the data (representative, number of votes) in localstorage.
 
 Entry:
