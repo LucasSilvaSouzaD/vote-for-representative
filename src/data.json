@@ -1,0 +1,24 @@
+[
+    {
+        "id": "1",
+        "name": "Lucas Silva Souza",
+        "name_without_space": "lucas-silva-souza",
+        "src": "https://avatars.githubusercontent.com/u/79232966?v=4",
+        "votings": 0
+    },
+    {
+        "id": "2",
+        "name": "Mateus Camargo",
+        "name_without_space": "mateus-camargo",
+        "src": "https://avatars.githubusercontent.com/u/47319248?v=4",
+        "votings": 0
+
+    },
+    {
+        "id": "3",
+        "name": "Paulo Leite",
+        "name_without_space": "paulo-leite",
+        "src": "https://avatars.githubusercontent.com/u/33264804?v=4",
+        "votings": 0
+    }
+]

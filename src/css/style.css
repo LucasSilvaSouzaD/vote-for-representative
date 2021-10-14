@@ -1,0 +1,26 @@
+body {
+    background-color: #f5ffffe1;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#0C9;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+  }
+  
+  .my-float{
+    margin-top:22px;
+  }

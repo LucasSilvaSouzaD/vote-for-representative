@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Votação - CIPA</title>
+</head>
+
+<body>
+
+    <div class="container mt-4">
+        <div>
+            <div class="input-group">
+                <input type="text" id="filter-representative" class="form-control" autocomplete="off"
+                    placeholder="Digite o nome do candidato" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+            </div>
+        </div>
+        <p class="card-text text-center text-info mt-3">
+            <small class="text-muted">
+                CLIQUE NA FOTO OU NOME DO SEU REPRESENTANTE PARA VOTAR!
+            </small>
+        </p>
+
+    </div>
+
+
+    <div class="container-fluid h-100 d-flex">
+        <div class="container-fluid mt-4">
+            <form action="" method="post">
+                <div class="row g-1" id="representatives">
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        Ranking
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ol class="list-group list-group-numbered ranking-list">
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="float d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <i class="bi bi-trophy my-float h-100 center" style="font-size: 1.5rem; color: #BF6336;"></i>
+    </a>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./src/js/createElement/card.js"></script>
+    <script src="./src/js/createElement/list.js"></script>
+    <script src="./src/data.json"></script>
+    <script src="./src/js/script.js"></script>
+
+</body>
+
+</html>
